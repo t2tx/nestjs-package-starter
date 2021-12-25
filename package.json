@@ -1,8 +1,8 @@
 {
-  "name": "@nestjsplus/nestjs-package-starter",
+  "name": "@t2tx/nestjs-package-starter",
   "version": "1.0.0",
   "description": "NestJS npm package starter",
-  "author": "John Biundo <johnfbiundo@gmail.com>",
+  "author": "Tei Jo <t2tx@icloud.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
   "main": "dist/test.js",
@@ -13,7 +13,7 @@
   "scripts": {
     "start:dev": "tsc -w",
     "build": "tsc",
-    "prepare": "npm run build",
+    "prepare": "yarn build",
     "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "test": "jest",
